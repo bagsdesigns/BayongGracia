@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wood Handled Bags</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <header id="navbar">
+    <nav class="navbar-container container">
+      <a href="/" class="home-link">
+        <div class="navbar-logo" img src="logo.png"> </div>
+        BAYONG GRACIA
+      </a>
+      <button type="button" id="navbar-toggle" aria-controls="navbar-menu" aria-label="Toggle menu" aria-expanded="false">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div id="navbar-menu" aria-labelledby="navbar-toggle">
+        <ul class="navbar-links">
+          <li class="navbar-item"><a class="navbar-link" href="index.html">Home</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="Bayong.html">Bayong</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="Wood.html">Wooden</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="leather.html">Leather</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+ 
+</head>
+<body>
+ 
+
+<img src="wood.jpg" class="front">
+<img class="thumbnail" src="bags/loft/1c.jpg" alt="Image 1" onclick="openModal('bags/loft/1c.jpg')">
+<img class="thumbnail" src="bags/loft/2c.jpg" alt="Image 1" onclick="openModal('bags/loft/2c.jpg')">
+<img class="thumbnail" src="bags/loft/3c.jpg" alt="Image 1" onclick="openModal('bags/loft/3c.jpg')">
+<img class="thumbnail" src="bags/loft/4c.jpg" alt="Image 1" onclick="openModal('bags/loft/4c.jpg')">
+<img class="thumbnail" src="bags/loft/5c.jpg" alt="Image 1" onclick="openModal('bags/loft/5c.jpg')">
+
+<div id="myModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <span class="next" onclick="nextImage()">&#9654;</span>
+    <img class="modal-content" id="modalImage">
+  </div>
+
+<script src="scriptloft.js"></script>
+
+</body>
+</html>
