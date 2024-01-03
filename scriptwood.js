@@ -18,6 +18,12 @@ function nextImage() {
   document.getElementById('modalImage').src = images[currentImageIndex];
 }
 
+function PrevImage() {
+  currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
+  document.getElementById('modalImage').src = images[currentImageIndex];
+}
+
+
 const navbarToggle = navbar.querySelector("#navbar-toggle");
 const navbarMenu = document.querySelector("#navbar-menu");
 const navbarLinksContainer = navbarMenu.querySelector(".navbar-links");
