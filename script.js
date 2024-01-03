@@ -22,6 +22,12 @@ function nextImage() {
 }
 
 
+function PrevImage() {
+  currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
+  document.getElementById('modalImage').src = images[currentImageIndex];
+}
+
+
 
 
 const navbarToggle = navbar.querySelector("#navbar-toggle");
