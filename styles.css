@@ -106,6 +106,17 @@ body {
   transform: translateY(-50%);
 }
 
+
+.back{
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+
 body {
   font-family: Arial, sans-serif;
 }
