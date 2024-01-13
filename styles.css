@@ -578,3 +578,13 @@ a {
   width:100%;
   margin-top:-10px;
 }
+
+
+
+@media screen and (max-width: 600px) {
+  
+
+  .dropdown-content{
+    position: relative;
+  }
+}
