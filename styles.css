@@ -381,6 +381,7 @@ body {
   border: 1px solid #ddd; /* Add a border for separation */
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  margin-left:10px;
 }
 
 /* Style for the product image */
