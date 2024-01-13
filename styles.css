@@ -571,3 +571,8 @@ a {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.vy {
+  width:100%;
+  margin-top:-10px;
+}
